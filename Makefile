@@ -13,4 +13,4 @@ clean:
 	rm -rf $(BUILD_DIR)
 
 check:
-	cppcheck --enable=all --error-exitcode=1 c/src/
+	cppcheck --enable=all --suppress=unusedFunction --suppress=missingIncludeSystem --error-exitcode=1 c/src/

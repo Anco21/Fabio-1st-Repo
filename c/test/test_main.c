@@ -9,7 +9,7 @@ int main(void) {
         printf("TEST PASSED: add(2, 3) = %d\n", result);
         return 0;
     } else {
-        printf("TEST FAILED: add(2, 3) = %d (expected 5)\n", result);
+        printf("TEST FAILED: add(2, 3) = %d (expected 99)\n", result);
         return 1;
     }
 }
